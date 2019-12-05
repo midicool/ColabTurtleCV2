@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from google.colab.patches import cv2_imshow
-img = np.zeros([500,800,3],dtype=np.uint8)
+img = np.zeros([500,500,3],dtype=np.uint8)
 img.fill(200)
 img[:] = (0, 0, 255)
 
