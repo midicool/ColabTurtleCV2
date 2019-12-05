@@ -15,7 +15,7 @@ is_pen_down=1
 
 def initializeTurtle():
   global turtle_pos
-  turtle_pos=(200,250)
+  turtle_pos=(250,250)
   global thecolor
   thecolor = (255,200,0,255)
   global turtle_degree
