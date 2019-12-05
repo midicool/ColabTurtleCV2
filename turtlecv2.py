@@ -88,10 +88,18 @@ def left(degrees):
 def color2(r,g,b):
   global thecolor
   thecolor=(b,g,r)
+  
+def color(col):
+  global thecolor
+  thecolor=col
 
 def bgcolor2(r,g,b):
   #img.fill(col)
   img[:] = (b,g,r)
+
+def bgcolor(col):
+  global thecolor
+  img[:] = col
   
 def circle(rad):
   global turtle_pos
