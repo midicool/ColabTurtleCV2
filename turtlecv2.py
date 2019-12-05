@@ -93,3 +93,10 @@ def bgcolor2(r,g,b):
   #img.fill(col)
   img[:] = (b,g,r)
   
+def circle(rad):
+  global turtle_pos
+  global thecolor
+
+  start_pos = turtle_pos
+  if is_pen_down:
+    cv2.circle(img, turtle_pos, rad, thecolor) 
