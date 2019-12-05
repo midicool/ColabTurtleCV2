@@ -92,3 +92,4 @@ def color2(r,g,b):
 def bgcolor2(r,g,b):
   #img.fill(col)
   img[:] = (b,g,r)
+  
